@@ -1,0 +1,12 @@
+# fastapi
+# uvicorn
+langchain
+langgraph
+langchain-core
+langchain-community
+langchain-groq
+groq
+tavily-python
+python-dotenv
+pydantic
+streamlit

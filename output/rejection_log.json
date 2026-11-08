@@ -1,0 +1,21 @@
+[
+    {
+        "attempt": 1,
+        "result": "FAIL",
+        "failed_checkpoints": [
+            {
+                "check_id": "workflow",
+                "status": "FAIL",
+                "reason": "While the end‑to‑end flow is described, the lesson does not mention document loading, chunking, creating embeddings, or building an index—required elements of a complete RAG workflow.",
+                "evidence": "The lesson outlines steps: user question → query formulation → retrieval → pass retrieved texts to generator → generation → post‑processing → response."
+            },
+            {
+                "check_id": "jargon_explanation",
+                "status": "FAIL",
+                "reason": "Key jargon items required by the rubric (chunks, vector databases) are missing, so the explanation is incomplete.",
+                "evidence": "The lesson includes a table of technical terms that defines embeddings, vector similarity, language model, retriever, etc., but it does not define \"chunks\" or \"vector databases\"."
+            }
+        ],
+        "improvement_requested": "\n                Checkpoint: workflow\n                Reason: While the end‑to‑end flow is described, the lesson does not mention document loading, chunking, creating embeddings, or building an index—required elements of a complete RAG workflow.\n                Evidence: The lesson outlines steps: user question → query formulation → retrieval → pass retrieved texts to generator → generation → post‑processing → response.\n                Required improvement: Fix this issue.\n                \n\n                Checkpoint: jargon_explanation\n                Reason: Key jargon items required by the rubric (chunks, vector databases) are missing, so the explanation is incomplete.\n                Evidence: The lesson includes a table of technical terms that defines embeddings, vector similarity, language model, retriever, etc., but it does not define \"chunks\" or \"vector databases\".\n                Required improvement: Fix this issue.\n                "
+    }
+]
